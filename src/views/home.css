@@ -277,6 +277,17 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media(max-width: 767px) {
+  .home-text {
+    text-align: center;
+  }
+  .home-text03 {
+    text-align: center;
+  }
+  .home-text04 {
+    text-align: center;
+  }
+}
 @media(max-width: 479px) {
   .home-container02 {
     padding-left: var(--dl-space-space-unit);
